@@ -3,7 +3,7 @@
 (defproject primes "primes-1.0"
   :description      "Prime Number Multiplacation Table Printer"
   :min-lein-version "2.5.0"
-  :dependencies     [[org.clojure/clojure "1.6.0"]]                             ; marginalia chokes on clojure 1.7 :/
+  :dependencies     [[org.clojure/clojure "1.7.0"]]                             ; marginalia chokes on clojure 1.7 :/
   :main             primes.core
   :profiles         {:dev {:dependencies [[org.clojure/tools.nrepl "0.2.10"]    ; needed by cider-nrepl
                                           [expectations "2.1.2"]                ; unit tests
