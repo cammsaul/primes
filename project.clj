@@ -6,7 +6,8 @@
   :dependencies     [[org.clojure/clojure "1.7.0"]]
   :main             primes.core
   :profiles         {:dev {:dependencies [[org.clojure/tools.nrepl "0.2.10"]
-                                          [expectations "2.1.2"]]
+                                          [expectations "2.1.2"]
+                                          [marginalia "0.8.0"]]
                            :plugins      [[cider/cider-nrepl "0.9.1"]
                                           [lein-expectations "0.0.8"]
                                           [refactor-nrepl "1.1.0"]]}})
